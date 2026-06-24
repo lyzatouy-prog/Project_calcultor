@@ -3,9 +3,15 @@ package model;
 public class Clear_BS {
     String varaible = "1234.5678";
     
+    
+    Clear_BS(){
+        varaible = "";
+    };
+    
     void set_clear(){
         varaible = "";
     };
+
 
     void set_backspace(){
         if(varaible.length() > 0){

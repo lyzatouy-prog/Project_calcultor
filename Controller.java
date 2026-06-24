@@ -84,7 +84,7 @@ public class Controller {
 
     @FXML
     void on_Digit1(ActionEvent event) {
-
+        user_input.set_one();
     }
 
     @FXML

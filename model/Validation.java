@@ -10,12 +10,28 @@ public class Validation {
             if (variable.charAt(i) == '.'){
                 count++;
             }
+  
+            }
+            if (count > 1 ){
+                System.out.println("Invalid variable");
+                return false;
         }
+
+        System.out.println("Valid variable");
         return true;
     }
+
+
     boolean is_operator_valid(String operator){
         // condition 1: operator length is greather than 1
-        if (operator != "+" && operator != "*" && operator)
+        if (operator.length() > 1){
+            return false;
+        }
+
+        // condition 2; operator is one of the following: +, -, *, /
+        if (operator != "+" && operator != "-" && operator != "*" && operator != "/"){
+            return false;
+        }
  
         return true;
     }

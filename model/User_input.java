@@ -2,37 +2,37 @@ package model;
 
 public class User_input {
     String variable = "";
-    void set_zero(){
+    public void set_zero(){
         variable = variable + 0;
     };
-    void set_one(){
+    public void set_one(){
         variable = variable + 1;
     };
-    void set_two(){
+    public void set_two(){
         variable = variable + 2;
     };
-    void set_three(){
+    public void set_three(){
         variable = variable + 3;
     };
-    void set_four(){
+    public void set_four(){
         variable = variable + 4;
     };
-    void set_five(){
+    public void set_five(){
         variable = variable + 5;
     };
-    void set_six(){
+    public void set_six(){
         variable = variable + 6;
     };
-    void set_seven(){
+    public void set_seven(){
         variable = variable + 7;
     };
-    void set_eight(){
+    public void set_eight(){
         variable = variable + 8;
     };
-    void set_nine(){
+    public void set_nine(){
         variable = variable + 9;
     };
-    void set_dot(){
+    public void set_dot(){
         variable = variable + ".";
     };
     String get_variable(){

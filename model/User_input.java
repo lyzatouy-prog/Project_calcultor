@@ -1,7 +1,7 @@
 package model;
 
 public class User_input {
-    String variable;
+    String variable = "";
     void set_zero(){
         variable = variable + 0;
     };
@@ -32,7 +32,22 @@ public class User_input {
     void set_nine(){
         variable = variable + 9;
     };
+    void set_dot(){
+        variable = variable + ".";
+    };
     String get_variable(){
         return variable;
     };
+    public static void main(String[] args) {
+        User_input input = new User_input();
+
+        input.set_one();
+        input.set_two();
+        input.set_dot();
+        input.set_three();
+        System.out.println(input.get_variable());
+        Memory memory = new Memory();
+        memory.set_first_variable(input.get_variable());
+        System.out.println(memory.get_first_variable());
+       }
 }

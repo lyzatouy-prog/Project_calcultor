@@ -34,9 +34,10 @@ public class Memory {
 
     public static void main(String[] args) {
         Memory memory = new Memory();
-        memory.set_first_variable(first_variable: "5");
+        memory.set_first_variable("4");
         System.out.println(memory.get_first_variable());
-        
+        memory.set_second_variable("5");
+        System.out.println(memory.get_second_variable());
     }
 
 }

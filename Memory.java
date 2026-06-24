@@ -6,3 +6,4 @@ import javafx.scene.control.Label;
 public class Memory extends Applications{
     
 }
+//jj
